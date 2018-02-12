@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nowastit.nowastit_v3_.MainActivity"
+    android:textColor="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="190px"
+        android:layout_height="250px"
+        />
+
+    <TextView
+        android:id="@+id/inscriptionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#44aa7d"/>
+
+
+    <TextView
+        android:id="@+id/nomTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : "
+        android:textColor="#FFFFFF"
+
+        />
+    <EditText
+        android:id="@+id/nomEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+
+
+        />
+    <TextView
+        android:id="@+id/adresseTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse : "
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:id="@+id/adresseEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/telephoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Téléphone : "
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:id="@+id/telephoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/offreTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offre : "
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:id="@+id/offreEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/coordAdrBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Coordonnées Adresse"
+            android:textColor="#44aa7d"
+
+
+            />
+        <Button
+            android:id="@+id/coordMobileBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Coordonnées Mobile"
+            android:textColor="#44aa7d"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/latitudeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude : "
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/latTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/longitudeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude : "
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/longTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        />
+    <Button
+        android:id="@+id/insertBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Inscription"
+        android:textColor="#44aa7d"
+        />
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Résultat inscription : "
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/showListBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Afficher liste"
+        android:textColor="#44aa7d" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+

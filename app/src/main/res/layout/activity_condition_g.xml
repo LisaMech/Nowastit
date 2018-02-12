@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nowastit.nowastit_v3_.ConditionG"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue"
+        android:textSize="30dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="En continuant vous acceptez les "
+    android:textSize="18dp"
+    android:id="@+id/textView"
+    android:layout_above="@+id/textView2"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conditions Générales d'Utilisations "
+        android:textSize="18dp"
+        android:layout_above="@+id/CGUBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/CGUBt"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Conditions Générales D'utilisation"
+        android:background="#FFF"
+        android:textColor="#000"
+        android:layout_above="@+id/directionPagePartageBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp" />
+
+    <Button
+        android:id="@+id/directionPagePartageBt"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Suivant"
+        android:textColor="#FFF"
+        android:background="#44aa7d"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+       />
+
+    <Button
+        android:id="@+id/precedentMainBt"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Précédent"
+        android:textColor="#FFF"
+        android:background="#44aa7d"
+
+      />
+
+</RelativeLayout>
