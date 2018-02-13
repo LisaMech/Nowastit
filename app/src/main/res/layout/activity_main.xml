@@ -14,7 +14,7 @@
 
     <LinearLayout
         android:layout_width="190px"
-        android:layout_height="250px"
+        android:layout_height="61dp"
         />
 
     <TextView
@@ -31,7 +31,7 @@
         android:id="@+id/nomTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nom : "
+        android:text="Pseudo "
         android:textColor="#FFFFFF"
 
         />
@@ -44,36 +44,10 @@
 
         />
     <TextView
-        android:id="@+id/adresseTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adresse : "
-        android:textColor="#FFFFFF"
-        />
-    <EditText
-        android:id="@+id/adresseEt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        />
-    <TextView
-        android:id="@+id/telephoneTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Téléphone : "
-        android:textColor="#FFFFFF"
-        />
-    <EditText
-        android:id="@+id/telephoneEt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        />
-    <TextView
         android:id="@+id/offreTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Offre : "
+        android:text="Produit "
         android:textColor="#FFFFFF"
         />
     <EditText
@@ -82,31 +56,54 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
 
+
         />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:text="Comment voulez-vous que votre produit s'affiche sur la carte ?"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/telephoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Entrez numéro de téléphone ( Celui-ci restera confidentiel ) "
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/telephoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         >
-        <Button
-            android:id="@+id/coordAdrBt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Coordonnées Adresse"
-            android:textColor="#44aa7d"
 
-
-            />
         <Button
             android:id="@+id/coordMobileBt"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="33dp"
             android:layout_gravity="center_horizontal"
-            android:text="Coordonnées Mobile"
+            android:text="Me localiser avec mon portable"
             android:textColor="#44aa7d"
             />
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -116,67 +113,118 @@
             android:id="@+id/latitudeTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Latitude : "
-            android:textColor="#FFFFFF"
+
             />
         <TextView
             android:id="@+id/latTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="0px"
+            android:layout_height="0px"
             />
+
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OU"
+        android:textSize="22dp"
+        />
+
+    <TextView
+        android:id="@+id/adresseTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrez une Adresse"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/adresseEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/coordAdrBt"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Me localiser avec mon Adresse"
+        android:textColor="#44aa7d"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/insertBt"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#44aa7d"
+            android:text="Ajouter"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/showListBt"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="140dp"
+            android:background="#44aa7d"
+            android:text="Voir les produits"
+            android:textColor="#FFF"
+
+
+            />
+
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-    <TextView
-        android:id="@+id/longitudeTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Longitude : "
-        android:textColor="#FFFFFF"
-        />
-    <TextView
-        android:id="@+id/longTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        <TextView
+            android:id="@+id/longitudeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:id="@+id/longTv"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            />
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="5dp"
 
         />
-    <Button
-        android:id="@+id/insertBt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Inscription"
-        android:textColor="#44aa7d"
-        />
+
     <TextView
         android:id="@+id/resultTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Résultat inscription : "
-        android:textColor="#FFFFFF"
-        />
+        android:layout_width="0px"
+        android:layout_height="0px"
 
-    <Button
-        android:id="@+id/showListBt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Afficher liste"
-        android:textColor="#44aa7d" />
+        />
 
 
 
 
 </LinearLayout>
-
-
-
-
 
